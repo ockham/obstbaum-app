@@ -34,7 +34,7 @@
 	<script src="<?php echo esc_url( home_url( '/' ) ); ?>static/leaflet051/leaflet.markercluster-src.js"></script>
 	<script src="<?php echo esc_url( home_url( '/' ) ); ?>static/leaflet051/L.Control.Locate.js" ></script>
 
-	<script src="<?php echo esc_url( home_url( '/' ) ); ?>static/obst.js" type="text/javascript"></script>
+	<script src="<?php echo esc_url( home_url( '/' ) ); ?>static/obst.geojson" type="text/javascript"></script>
 	<?php wp_head(); ?>
 	<script src="<?php echo esc_url( home_url( '/' ) ); ?>static/map.php" type="text/javascript"></script>
 </head>

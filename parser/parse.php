@@ -3,9 +3,9 @@
  * Read csv file and write content to geojson file
 **/
 $fin = 'baeume-obst.csv';
-$fout = 'obst.js';
+$fout = 'obst.geojson';
 //$fin = 'baeume-alle.csv';
-//$fout = 'alle.js';
+//$fout = 'alle.geojson';
 
 /* http://sourceforge.net/projects/proj4php/ */
 include_once("proj4php/proj4php.php");
